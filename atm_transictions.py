@@ -50,8 +50,8 @@ def withdraw_checker(amount: Optional[int], atm_password: str, atm_current_balan
     return False, atm_current_balance, None
 
 
-def balance_checker(action_param: Optional, atm_password: str, atm_current_balance: int) -> Tuple[bool, None, int]:
-    return True, None, atm_current_balance
+def balance_checker(action_param: Optional, atm_password: str, atm_current_balance: int) -> Tuple[bool, int, int]:
+    return True, atm_current_balance, atm_current_balance
 
 
 transition_table = frozendict({
