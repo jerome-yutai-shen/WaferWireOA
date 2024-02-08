@@ -7,7 +7,7 @@ run
 ```bash
 python atm_transictions.py
 ```
-then input line by line according to the "Test Question.docx" Sample Case 0 and Sample Case 1.
+then input line by line according to the "Test Question.pdf" Sample Case 0 and Sample Case 1.
 
 ## To test it
 In a Unix/Linux/Mac terminal, 
